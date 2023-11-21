@@ -19,7 +19,7 @@
         }).addTo(map);
 
         // Capa desde GeoServer
-        var geoServerLayer = L.tileLayer.wms('http://localhost:8080/geoserver/capasmodulocinco/wms', {
+        var geoServerLayer = L.tileLayer.wms('http://geo.gob.bo/geoserver/sernap/wms', {
             layers: 'areas_protegidas_nacionales042015',
             format: 'image/png',
             transparent: true,
